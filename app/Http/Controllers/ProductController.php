@@ -7,7 +7,6 @@ use App\Http\Resources\Product\ProductResource;
 use App\Model\Product;
 use Illuminate\Http\Request;
 use App\Http\Resources\Product\ProductCollection;
-use mysql_xdevapi\Exception;
 use Symfony\Component\HttpFoundation\Response;
 use App\Exceptions\ProductNotBelongToUser;
 use Auth;
